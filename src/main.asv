@@ -2,8 +2,6 @@ clc,clear
 
 disp("hello world")
 
-hold(gca,"on")
-
 addpath("main_calsses\");
 addpath("Strategies\");
 
