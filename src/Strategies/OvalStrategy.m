@@ -9,7 +9,7 @@ classdef OvalStrategy < MoveStrategy
     methods
         function [x, y] = move(obj, x, y)
             x = x + obj.r1 * cos(obj.theta);
-            y = y + obj.r2 * sin(obj.theta); %koment 2
+            y = y + obj.r2 * sin(obj.theta); %koment 2 opraveno
             obj.theta = obj.theta + obj.dtheta; % posun po kruhu
         end
     end
