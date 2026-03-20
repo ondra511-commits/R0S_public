@@ -4,7 +4,7 @@ disp("hello world")
 
 hold(gca,"on")
 
-addpath("main_calsses\");
+addpath("main_classes\");
 addpath("Strategies\");
 
 r = Robot(ForwardStrategy(), 0, 0);
