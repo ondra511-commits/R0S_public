@@ -1,6 +1,5 @@
 clc,clear
 
-disp("hello world")
 
 hold(gca,"on")
 
